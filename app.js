@@ -31,4 +31,4 @@ app.set('view engine', 'ejs');
 const routes = require('./server/routes/recipeRoutes.js')
 app.use('/', routes);
 
-app.listen(port, ()=> console.log(`Listening to port ${port}`));
+app.listen(port, () => console.log(`Listening to port ${port} \nGo to http://localhost:3000/ \n`));
