@@ -38,4 +38,4 @@ const routes = require('./server/routes/recipeRoutes.js'); // Imports routes
 app.use('/', routes); // Applies routes to the root path
 
 // Starting the server
-app.listen(port, () => console.log(`Listening to port ${port}`)); // Server running on specified port
+app.listen(port, () => console.log(`Listening to port ${port} \nGo to http://localhost:5000/ \n`)); // Server running on specified port
